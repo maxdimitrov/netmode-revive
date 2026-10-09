@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2329 # helpers are invoked through check()
+# shellcheck disable=SC2317,SC2329 # helpers are invoked through check()
 # End-to-end test against the local Docker daemon. Builds the image, runs it
 # with a short grace window, and checks each rule on throwaway containers.
 set -euo pipefail
